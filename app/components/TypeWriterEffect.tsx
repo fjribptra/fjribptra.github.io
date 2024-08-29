@@ -5,7 +5,7 @@ export default function TypeWriterEffect() {
     return (
         <div className="text-2xl font-bold gradient-text sm:text-4xl lg:text-5xl">
              <Typewriter
-            words={['Hello there, I\'m Fajri', 'Frontend Web Developer']}
+            words={['Hello there, I\'m Fajri', 'Fullstack Web Developer']}
             loop={true}
             cursor
             cursorStyle='_'
