@@ -5,7 +5,7 @@ import TypescriptIcon from "./icons/TypescriptIcon";
 
 export default function SideProjectList() {
   return (
-    <div className="bg-black flex flex-col justify-center items-center p-5">
+    <div className="bg-black flex flex-col justify-center items-center p-5 gap-7">
       <ProjectCard image="/myfakecommerce.png" title="Nextjs FakeCommerce" linkToProject="https://myfakecommerce.vercel.app/">
         <ReactIcon />
         <TypescriptIcon />

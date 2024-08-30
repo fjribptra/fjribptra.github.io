@@ -3,6 +3,8 @@ import TypeWriterEffect from "./components/TypeWriterEffect";
 import ProjectPagination from "./components/ProjectsPagination";
 import WorksProjectList from "./components/WorksProjectList";
 import SideProjectList from "./components/SideProjectList";
+import SmallProjectList from "./components/SmallProjectList";
+import ProjectListCards from "./components/ProjectListCards";
 
 export default function Home() {
   return (
@@ -19,8 +21,7 @@ export default function Home() {
     {/* Projects Pagination End */}
 
     {/* Projects List Start */}
-     <WorksProjectList/>
-     <SideProjectList/>
+     <ProjectListCards/>
     {/* Projects List End */}
     </main>
   );
