@@ -5,7 +5,7 @@ import JavascriptIcon from "./icons/JavascriptIcon";
 
 export default function SmallProjectList() {
   return (
-    <div className="bg-black flex flex-col gap-7 justify-center items-center p-5">
+    <>
       <ProjectCard image="/filedownloader.png" title="File Downloader" linkToProject="https://fjribptra.github.io/file-downloader">
       <JavascriptIcon/>
         <CssIcon />
@@ -56,6 +56,6 @@ export default function SmallProjectList() {
         <CssIcon />
         <HtmlIcon/>
       </ProjectCard>
-    </div>
+    </>
   );
 }

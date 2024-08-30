@@ -8,7 +8,7 @@ export default function ProjectPagination() {
   const navigation = useSelector<RootState, string>((state) => state.projectNavigation.value);
   const dispatch = useDispatch();
   return (
-    <div className="bg-black text-slate-400 flex justify-center items-center p-5 gap-5">
+    <div className="bg-black text-slate-400 flex justify-center items-center p-5 gap-5 border border-y-white border-x-black">
       <button className={`${navigation === "WORKS_PROJECT" ? "text-white font-semibold underline" : null}`} onClick={() => dispatch(workProjectsTrigger())}>
         Works
       </button>
