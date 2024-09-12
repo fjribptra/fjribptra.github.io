@@ -20,8 +20,10 @@ export default function Home() {
     {/* Projects Pagination End */}
 
     {/* Projects List Start */}
-    <div className="bg-black flex flex-col gap-7 justify-center items-center p-5 md:grid md:grid-cols-2 lg:grid-cols-3">
+    <div className=" bg-black ">
+      <div className="container mx-auto flex flex-col gap-7 justify-center items-center p-5 md:grid md:grid-cols-2 lg:grid-cols-3">
      <ProjectListCards/>
+      </div>
      </div>
     {/* Projects List End */}
     </main>
