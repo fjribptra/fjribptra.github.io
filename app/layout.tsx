@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { Provider } from "react-redux";
 import ReduxProvider from "./components/ReduxProvider";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <ReduxProvider>
         {children}
         </ReduxProvider>
+        <Footer/>
       </body>
     </html>
   );

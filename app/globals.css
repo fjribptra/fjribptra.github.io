@@ -3,7 +3,18 @@
 @tailwind utilities;
 
 .gradient-text {
-  background: linear-gradient(to right, #60a5fa, #fff);
+  background: linear-gradient(to right, #60a5fa, #000);
   -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

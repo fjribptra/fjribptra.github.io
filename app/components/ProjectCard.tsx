@@ -31,9 +31,9 @@ export default function ProjectCard(props: ProjectCardProps) {
     }
 
     return (
-        <button onClick={() => onClickCard(props.linkToProject)} className="bg-slate-200 w-full">
-          <Image className="w-full h-[200px]" src={props.image} alt='' width={200} height={400} />
-          <div className="bg-slate-100 p-2 flex flex-col gap-3">
+        <button onClick={() => onClickCard(props.linkToProject)} className="bg-white w-full">
+          <Image className="w-full h-[150px]" src={props.image} alt='' width={400} height={400} />
+          <div className="bg-white p-2 flex flex-col gap-3">
               <h2 className="font-bold text-left">{props.title}</h2>
               <div className="flex gap-3 items-center">
               <p className="text-sm">Stack :</p>
