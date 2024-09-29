@@ -1,27 +1,27 @@
 import ProjectCard from "./ProjectCard";
-import CssIcon from "./icons/CssIcon";
 import HtmlIcon from "./icons/HtmlIcon";
 import JavascriptIcon from "./icons/JavascriptIcon";
+import TailwindIcon from "./icons/TailwindIcon";
 
 export default function SmallProjectList() {
   return (
     <>
-      <ProjectCard image="/filedownloader.png" title="File Downloader" linkToProject="https://fjribptra.github.io/file-downloader">
+      <ProjectCard category="Utility" image="/filedownloader.png" title="File Downloader" linkToProject="https://online-file-downloaderr.vercel.app/">
       <JavascriptIcon/>
-        <CssIcon />
+      <TailwindIcon/>
         <HtmlIcon/>
       </ProjectCard>
-      <ProjectCard image="/qrscanner.png" title="QR Scanner" linkToProject="https://fjribptra.github.io/qr-scanner">
+      <ProjectCard category="Utility" image="/qrscanner.png" title="Fast QR Scanner" linkToProject="https://fjribptra.github.io/qr-scanner">
       <JavascriptIcon/>
-        <CssIcon />
+      <TailwindIcon/>
         <HtmlIcon/>
       </ProjectCard>
-      <ProjectCard image="/qrgenerator.png" title="QR Generator" linkToProject="https://fjribptra.github.io/qr-generator">
+      <ProjectCard category="Utility" image="/qrgenerator.png" title="QR Generator" linkToProject="https://qr-generatorv2.vercel.app/">
       <JavascriptIcon/>
-        <CssIcon />
+      <TailwindIcon/>
         <HtmlIcon/>
       </ProjectCard>
-      <ProjectCard image="/noteapp.png" title="Note App" linkToProject="https://fjribptra.github.io/note-app">
+      {/* <ProjectCard image="/noteapp.png" title="Note App" linkToProject="https://fjribptra.github.io/note-app">
       <JavascriptIcon/>
         <CssIcon />
         <HtmlIcon/>
@@ -30,13 +30,13 @@ export default function SmallProjectList() {
       <JavascriptIcon/>
         <CssIcon />
         <HtmlIcon/>
-      </ProjectCard>
-      <ProjectCard image="/passwordgenerator.png" title="Random Password Generator" linkToProject="https://fjribptra.github.io/password-generator">
+      </ProjectCard>*/}
+      <ProjectCard category="Utility"  image="/passwordgenerator.png" title="Random Password Generator" linkToProject="https://password-generatorv2.vercel.app/">
       <JavascriptIcon/>
-        <CssIcon />
+      <TailwindIcon/>
         <HtmlIcon/>
       </ProjectCard>
-      <ProjectCard image="/todolist.png" title="To-do List App" linkToProject="https://fjribptra.github.io/to-do-list">
+      {/*<ProjectCard image="/todolist.png" title="To-do List App" linkToProject="https://fjribptra.github.io/to-do-list">
       <JavascriptIcon/>
         <CssIcon />
         <HtmlIcon/>
@@ -55,7 +55,7 @@ export default function SmallProjectList() {
       <JavascriptIcon/>
         <CssIcon />
         <HtmlIcon/>
-      </ProjectCard>
+      </ProjectCard> */}
     </>
   );
 }

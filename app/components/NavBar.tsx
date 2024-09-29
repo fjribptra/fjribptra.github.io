@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { IoIosMoon } from "react-icons/io";
-import { MdOutlineLightMode } from "react-icons/md";
 import LightDarkToggle from "./LightDartToggle";
 
 export default function NavBar() {
@@ -15,7 +13,7 @@ export default function NavBar() {
       <LightDarkToggle/>
       </div>
       <div className="flex gap-5">
-        <Link href={'https://pajriblogs.vercel.app'}>Blog</Link>
+        <Link href={'https://blog-fajri-putra.vercel.app/'}>Blog</Link>
       </div>
     </nav>
   );

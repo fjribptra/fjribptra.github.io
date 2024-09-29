@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 
 interface ProjectCardProps {
     image: string,
+    category: string,
     title: string,
     linkToProject: string,
     children: React.ReactNode
@@ -34,6 +35,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         <button onClick={() => onClickCard(props.linkToProject)} className="bg-white w-full">
           <Image className="w-full h-[170px]" src={props.image} alt='' width={400} height={400} />
           <div className="bg-white p-2 flex flex-col gap-3">
+              <p className="text-sm text-left text-slate-500">{props.category}</p>
               <h2 className="font-bold text-left">{props.title}</h2>
               <div className="flex gap-3 items-center">
               <p className="text-sm">Stack :</p>
