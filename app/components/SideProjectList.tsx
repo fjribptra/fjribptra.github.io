@@ -7,7 +7,7 @@ import TypescriptIcon from "./icons/TypescriptIcon";
 export default function SideProjectList() {
   return (
     <>
-      <ProjectCard category="E-Commerce" image="/myfakecommerce.png" title="Nextjs FakeCommerce" linkToProject="https://github.com/fjribptra/fakecommerce-nextjs">
+      <ProjectCard category="Listing Products" image="/thscatalog.png" title="Listing Product System" linkToProject="https://github.com/fjribptra/ths-catalog">
         <NextjsIcon/>
         <TypescriptIcon />
         <SupabaseIcon />
