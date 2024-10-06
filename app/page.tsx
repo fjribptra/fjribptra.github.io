@@ -20,7 +20,7 @@ export default function Home() {
       <NavBar/>
       <div className="max-w-3xl mx-auto pt-24 flex flex-col gap-5 p-3">
         <div className="flex justify-start items-center gap-5">
-          <Image className="rounded-full" src={`/pajri.jpeg`} alt='' width={120} height={120} />
+          <Image className="rounded-full w-[120px] h-[120px]" src={`/pajri.jpeg`} alt='' width={400} height={400} />
           <div className="flex flex-col gap-3">
             <h1 className="font-bold text-2xl">Fajri Bagja Putra</h1>
             <h2 className="bg-blue-200 dark:bg-blue-700 w-fit">Fullstack Web Developer</h2>
