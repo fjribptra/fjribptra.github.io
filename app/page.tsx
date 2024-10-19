@@ -13,19 +13,24 @@ import TailwindIcon from "./components/icons/TailwindIcon";
 import NodejsIcon from "./components/icons/NodejsIcon";
 import NextjsIcon from "./components/icons/NextjsIcon";
 import ReactIcon from "./components/icons/ReactIcon";
+import LaravelIcon from "./components/icons/LaravelIcon";
+import PhpIcon from "./components/icons/PhpIcon";
+import CodeigniterIcon from "./components/icons/CodeigniterIcon";
+import VuejsIcon from "./components/icons/VuejsIcon";
 
 export default function Home() {
   return (
     <main className="dark:bg-slate-950 dark:text-white">
-      <NavBar/>
-      <div className="max-w-3xl mx-auto pt-24 flex flex-col gap-5 p-3">
+      {/* <NavBar/> */}
+      <div className="max-w-3xl mx-auto pt-16 flex flex-col gap-5 p-3">
         <div className="flex justify-start items-center gap-5">
-          <Image className="rounded-full w-[120px] h-[120px]" src={`/pajri.jpeg`} alt='' width={400} height={400} />
+          <Image className="rounded-full w-[100px] h-[100px]" src={`/pajri.jpeg`} alt='' width={400} height={400} />
           <div className="flex flex-col gap-3">
             <h1 className="font-bold text-2xl">Fajri Bagja Putra</h1>
-            <h2 className="bg-blue-200 dark:bg-blue-700 w-fit">Fullstack Web Developer</h2>
+            <h2 className="bg-purple-200 dark:bg-blue-700 w-fit">Fullstack Web Developer</h2>
           </div>
         </div>
+        <hr/>
         <div>
           <p>I&apos;m passionate about web development and design. Familiar with modern Front End and Back End framework such as NextJS ( ReactJS ) and Node JS using Javascript or Typescript. I&apos;m always eager to take on new challenges and collaborate on exciting projects . Let&apos;s connect and explore opportunities together.</p>
         </div>
@@ -62,6 +67,18 @@ export default function Home() {
           </SkillIcon>
           <SkillIcon title="NEXT JS">
           <NextjsIcon />
+          </SkillIcon>
+          <SkillIcon title="PHP">
+          <PhpIcon/>
+          </SkillIcon>
+          <SkillIcon title="LARAVEL">
+          <LaravelIcon />
+          </SkillIcon>
+          <SkillIcon title="CODEIGNITER">
+          <CodeigniterIcon />
+          </SkillIcon>
+          <SkillIcon title="VUE JS">
+          <VuejsIcon />
           </SkillIcon>
         </div>
       </section>
