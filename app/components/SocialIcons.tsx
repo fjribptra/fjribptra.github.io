@@ -10,11 +10,11 @@ export default function SocialIcons() {
         <FaLinkedinIn />
         Connect
       </a>
-      <a href="https://instagram.com/fjribptra" target="_blank" className="text-white bg-fuchsia-500 p-2 rounded-md text-sm flex justify-center items-center gap-2">
+      <a href="https://instagram.com/pajri.bp" target="_blank" className="text-white bg-fuchsia-500 p-2 rounded-md text-sm flex justify-center items-center gap-2">
       <FaInstagram />
       Follow
       </a>
-      <a href="https://youtube.com/@fjribptra" target="_blank" className="text-white bg-red-600 p-2 rounded-md text-sm flex justify-center items-center gap-2">
+      <a href="https://youtube.com/@pajribp" target="_blank" className="text-white bg-red-600 p-2 rounded-md text-sm flex justify-center items-center gap-2">
       <FaYoutube />
       Subscribe
       </a>

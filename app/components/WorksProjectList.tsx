@@ -7,7 +7,7 @@ import WordpressIcon from "./icons/WordpressIcon";
 export default function WorksProjectList() {
   return (
     <>
-      <ProjectCard category="Landing Page"  image="/edunesia_landingpage.png" title="Edunesia Landing Page" linkToProject="https://www.edunesia.net">
+      <ProjectCard category="Landing Page"  image="/edunesia_landingpage.png" title="Edunesia Company Profile" linkToProject="https://www.edunesia.net">
         <WordpressIcon/>
         <CssIcon />
         <HtmlIcon/>
