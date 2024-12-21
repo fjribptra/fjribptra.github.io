@@ -17,6 +17,7 @@ import LaravelIcon from "./components/icons/LaravelIcon";
 import PhpIcon from "./components/icons/PhpIcon";
 import CodeigniterIcon from "./components/icons/CodeigniterIcon";
 import VuejsIcon from "./components/icons/VuejsIcon";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -35,6 +36,11 @@ export default function Home() {
           <p>I&apos;m passionate about web development and design. Familiar with modern Front End and Back End framework such as NextJS ( ReactJS ) and Node JS using Javascript or Typescript. I&apos;m always eager to take on new challenges and collaborate on exciting projects . Let&apos;s connect and explore opportunities together.</p>
         </div>
         <SocialIcons/>
+        <div>
+          <Link href="https://free-web-templates-by-pajri.vercel.app/" target="_blank">
+          <Image className="w-full" src="/free-web-templates.png" alt="free web templates" width={1500} height={1500}/>
+          </Link>
+        </div>
           <div className="">
             <h2 className="p-5 flex justify-center items-center">PORTFOLIO</h2>
             <div className="container bg-slate-100 dark:bg-slate-950 text-black mx-auto flex flex-col gap-7 justify-center items-center p-3 md:p-3 md:grid md:grid-cols-2 lg:grid-cols-2">
@@ -96,6 +102,10 @@ export default function Home() {
       </div>
      </div> */}
     {/* Projects List End */}
+    <Link href="https://wa.me/628886166753" className="fixed bottom-2 right-2 md:bottom-5 md:right-5 flex gap-3 justify-center items-center bg-white rounded-full p-2">
+      <Image src="/whatsapp-logo.png" alt="whatsapp logo" width={30} height={30}/>
+      <h2>Interested to work together?</h2>
+    </Link>
     </main>
   );
 }
