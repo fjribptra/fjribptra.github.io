@@ -1,6 +1,6 @@
 import SocialIcons from "./components/SocialIcons";
 import TypeWriterEffect from "./components/TypeWriterEffect";
-import ProjectPagination from "./components/ProjectsPagination";
+import ProjectsPagination from "./components/ProjectsPagination";
 import ProjectListCards from "./components/ProjectListCards";
 import NavBar from "./components/NavBar";
 import Image from "next/image";
@@ -18,6 +18,8 @@ import PhpIcon from "./components/icons/PhpIcon";
 import CodeigniterIcon from "./components/icons/CodeigniterIcon";
 import VuejsIcon from "./components/icons/VuejsIcon";
 import Link from "next/link";
+import ProjectCard from "./components/ProjectCard";
+import GitIcon from "./components/icons/GitIcon";
 
 export default function Home() {
   return (
@@ -32,18 +34,21 @@ export default function Home() {
           </div>
         </div>
         <hr/>
-        <div>
-          <p>I&apos;m passionate about web development and design. Familiar with modern Front End and Back End framework such as NextJS ( ReactJS ) and Node JS using Javascript or Typescript. I&apos;m always eager to take on new challenges and collaborate on exciting projects . Let&apos;s connect and explore opportunities together.</p>
+        <div className="flex flex-col gap-5">
+          <p>I&apos;m passionate about web development and design. Familiar with modern Front End and Back End framework such as NextJS ( ReactJS ) and Node JS using Javascript or Typescript.</p>
+          <p>Fundamental understanding of mobile first design concepts, API implemetation and search engine optimization (SEO).</p>
+          <p>I&apos;m always eager to take on new challenges and collaborate on exciting projects . Let&apos;s connect and explore opportunities together.</p>
         </div>
         <SocialIcons/>
         <div>
-          <Link href="https://free-web-templates-by-pajri.vercel.app/" target="_blank">
-          <Image className="w-full" src="/free-web-templates.png" alt="free web templates" width={1500} height={1500}/>
-          </Link>
+          <ProjectCard category="Template"  image="/free-web-templates.png" title="50+ Free Editable Web Templates For Business" linkToProject="https://free-web-templates-by-pajri.vercel.app" />
+          {/* <Image className="w-full" src="/free-web-templates.png" alt="free web templates" width={1500} height={1500}/>
+          </Link> */}
         </div>
           <div className="">
-            <h2 className="p-5 flex justify-center items-center">PORTFOLIO</h2>
-            <div className="container bg-slate-100 dark:bg-slate-950 text-black mx-auto flex flex-col gap-7 justify-center items-center p-3 md:p-3 md:grid md:grid-cols-2 lg:grid-cols-2">
+            {/* <h2 className="p-5 flex justify-center items-center uppercase">Project</h2> */}
+            <ProjectsPagination />
+            <div className="container bg-slate-100 dark:bg-slate-950 text-black mx-auto flex flex-col gap-7 justify-center items-center p-3 md:p-3">
               <ProjectListCards/>
             </div>
           </div>
@@ -74,15 +79,18 @@ export default function Home() {
           <SkillIcon title="NEXT JS">
           <NextjsIcon />
           </SkillIcon>
-          <SkillIcon title="PHP">
+          <SkillIcon title="GIT">
+          <GitIcon />
+          </SkillIcon>
+          {/* <SkillIcon title="PHP">
           <PhpIcon/>
-          </SkillIcon>
-          <SkillIcon title="LARAVEL">
+          </SkillIcon> */}
+          {/* <SkillIcon title="LARAVEL">
           <LaravelIcon />
-          </SkillIcon>
-          <SkillIcon title="CODEIGNITER">
+          </SkillIcon> */}
+          {/* <SkillIcon title="CODEIGNITER">
           <CodeigniterIcon />
-          </SkillIcon>
+          </SkillIcon> */}
           <SkillIcon title="VUE JS">
           <VuejsIcon />
           </SkillIcon>

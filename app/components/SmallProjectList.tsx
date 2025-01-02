@@ -6,17 +6,17 @@ import TailwindIcon from "./icons/TailwindIcon";
 export default function SmallProjectList() {
   return (
     <>
-      <ProjectCard category="Utility" image="/filedownloader.png" title="File Downloader" linkToProject="https://online-file-downloaderr.vercel.app/">
+      <ProjectCard category="Tool" image="/filedownloader.png" title="File Downloader" linkToProject="https://online-file-downloaderr.vercel.app/">
       <JavascriptIcon/>
       <TailwindIcon/>
         <HtmlIcon/>
       </ProjectCard>
-      <ProjectCard category="Utility" image="/qrscanner.png" title="Fast QR Scanner" linkToProject="https://fjribptra.github.io/qr-scanner">
+      <ProjectCard category="Tool" image="/qrscanner.png" title="Fast QR Scanner" linkToProject="https://fjribptra.github.io/qr-scanner">
       <JavascriptIcon/>
       <TailwindIcon/>
         <HtmlIcon/>
       </ProjectCard>
-      <ProjectCard category="Utility" image="/qrgenerator.png" title="QR Generator" linkToProject="https://qr-generatorv2.vercel.app/">
+      <ProjectCard category="Tool" image="/qrgenerator.png" title="QR Generator" linkToProject="https://qr-generatorv2.vercel.app/">
       <JavascriptIcon/>
       <TailwindIcon/>
         <HtmlIcon/>
@@ -31,7 +31,7 @@ export default function SmallProjectList() {
         <CssIcon />
         <HtmlIcon/>
       </ProjectCard>*/}
-      <ProjectCard category="Utility"  image="/passwordgenerator.png" title="Random Password Generator" linkToProject="https://password-generatorv2.vercel.app/">
+      <ProjectCard category="Tool"  image="/passwordgenerator.png" title="Random Password Generator" linkToProject="https://password-generatorv2.vercel.app/">
       <JavascriptIcon/>
       <TailwindIcon/>
         <HtmlIcon/>

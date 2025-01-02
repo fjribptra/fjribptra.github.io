@@ -3,21 +3,19 @@ import { createSlice } from '@reduxjs/toolkit'
 export const projectNavigationSlice = createSlice({
     name: 'projectNavigation',
     initialState: {
-      value: "WORKS_PROJECT"
+      value: "PROJECT"
     },
     reducers: {
-      workProjectsTrigger: state => {
-        state.value = "WORKS_PROJECT"
+      projectTrigger: state => {
+        state.value = "PROJECT"
       },
-      sideProjectsTrigger: state => {
-        state.value = "SIDE_PROJECT"
+      personalTrigger: state => {
+        state.value = "PERSONAL"
       },
-      smallProjectsTrigger: (state) => {
-        state.value = "SMALL_PROJECT"
-      }
+
     }
   })
 
-export const { workProjectsTrigger, sideProjectsTrigger, smallProjectsTrigger } = projectNavigationSlice.actions
+export const { projectTrigger, personalTrigger } = projectNavigationSlice.actions
 
 export default projectNavigationSlice.reducer
