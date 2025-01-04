@@ -19,7 +19,10 @@ const roboto = Roboto({
 const figtree = Figtree({subsets: ["latin"]})
 
 export const metadata: Metadata = {
-  title: "Fajri Bagja Putra - Fullsatck Web Developer, North Cikarang, West Java, Indonesia | Personal Profile",
+  title: {
+    template: " %s | Fajri Bagja Putra - Software Engineer, Fullsatck Developer - Personal Website",
+    default: "Fajri Bagja Putra - Software Engineer, Fullsatck Developer - Personal Website",
+  },
   description: "I'm passionate about web development and design. Familiar with modern Front End and Back End  framework such as NextJS ( ReactJS ) and Node JS using Javascript or Typescript. Fundamental understanding of mobile first design concepts, API implemetation and search engine optimization (SEO). I'm always eager to take on new challenges and collaborate on exciting projects . Let's connect and explore opportunities together.",
 };
 

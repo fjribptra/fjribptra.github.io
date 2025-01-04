@@ -4,9 +4,15 @@ import { LuLeaf } from "react-icons/lu";
 import Image from "next/image";
 import Subheading from "../components/Subheading";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'About',
+  }
 
 const About = () => {
   return (
+    <>
     <main>
       <div className="max-w-3xl mx-auto pt-16 flex flex-col gap-5 p-3">
         <h1 className="text-3xl font-semibold">About me</h1>
@@ -40,6 +46,7 @@ const About = () => {
         </div>
       </div>
     </main>
+    </>
   );
 };
 
