@@ -1,12 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Figtree, Inter, Roboto } from "next/font/google";
 import "./globals.css";
+import 'react-tooltip/dist/react-tooltip.css';
 
 import ReduxProvider from "./components/ReduxProvider";
 import Footer from "./components/Footer";
 import HTML from "./components/HTML";
+import BottomNavigation from "./components/BottomNavigation";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+const figtree = Figtree({subsets: ["latin"]})
 
 export const metadata: Metadata = {
   title: "Fajri Bagja Putra - Fullsatck Web Developer, North Cikarang, West Java, Indonesia | Personal Profile",
@@ -19,11 +29,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <ReduxProvider>
+    <ReduxProvider>
     <HTML>
-      <body className={inter.className}>
+      <body className={figtree.className}>
         {children}
         <Footer/>
+        <BottomNavigation/>
       </body>
     </HTML>
         </ReduxProvider>

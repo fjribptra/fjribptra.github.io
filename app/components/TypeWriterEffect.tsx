@@ -3,9 +3,9 @@ import { Typewriter } from 'react-simple-typewriter'
 
 export default function TypeWriterEffect() {
     return (
-        <div className="text-2xl font-bold gradient-text sm:text-4xl lg:text-6xl">
+        <div className="">
              <Typewriter
-            words={['Fajri Bagja Putra', 'Fullstack Web Developer']}
+            words={['Fajri Bagja Putra', 'Software Engineer', 'Fullstack Developer']}
             loop={true}
             cursor
             // cursorStyle=''

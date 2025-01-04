@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .gradient-text {
   background: linear-gradient(to right, #60a5fa, #000);
   -webkit-background-clip: text;
