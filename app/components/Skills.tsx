@@ -19,6 +19,7 @@ import ExpressIcon from "./icons/ExpressIcon";
 import DockerIcon from "./icons/DockerIcon";
 import MongodbIcon from "./icons/MongodbIcon";
 import Subheading from "./Subheading";
+import LinuxIcon from "./icons/LinuxIcon";
 
 const Skills = () => {
   return (
@@ -77,6 +78,9 @@ const Skills = () => {
           </SkillIcon>
           <SkillIcon title="MONGODB">
             <MongodbIcon />
+          </SkillIcon>
+          <SkillIcon title="LINUX">
+            <LinuxIcon/>
           </SkillIcon>
         </Marquee>
       </div>
