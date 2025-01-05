@@ -25,7 +25,7 @@ const About = () => {
           <LuLeaf />
         </Subheading>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <Link href="https://www.edunesia.net" target="_blank" className="flex flex-col gap-3 p-5 rounded-lg bg-slate-50 border">
+          <Link href="https://www.edunesia.net" target="_blank" className="flex flex-col gap-3 p-5 rounded-lg bg-slate-100 border">
             <div className="flex gap-5">
               <div>
                 <Image className="w-[50px] h-[50px]" src="/edunesia_logo.jpeg" alt="edunesia" width={400} height={400} />
