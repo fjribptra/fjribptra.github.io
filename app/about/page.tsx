@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const About = () => {
   return (
     <>
-    <main>
+    <main className="dark:bg-gray-950 dark:text-white">
       <div className="max-w-3xl mx-auto pt-16 flex flex-col gap-5 p-3">
         <h1 className="text-3xl font-semibold">About me</h1>
         <p className="text-justify">
@@ -25,19 +25,19 @@ const About = () => {
           <LuLeaf />
         </Subheading>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <Link href="https://www.edunesia.net" target="_blank" className="flex flex-col gap-3 p-5 rounded-lg bg-slate-100 border">
+          <Link href="https://www.edunesia.net" target="_blank" className="dark:bg-slate-800 flex flex-col gap-3 p-5 rounded-lg bg-slate-100 border">
             <div className="flex gap-5">
               <div>
                 <Image className="w-[50px] h-[50px]" src="/edunesia_logo.jpeg" alt="edunesia" width={400} height={400} />
               </div>
               <div>
                 <h2 className="text-sm font-semibold">PT Edunesia Insan Cerdas</h2>
-                <p className="text-xs text-slate-600">Frontend Developer - Internship</p>
-                <p className="text-xs text-slate-600">Des 2023 - Jun 2024</p>
+                <p className="text-xs text-slate-600 dark:text-slate-300">Frontend Developer - Internship</p>
+                <p className="text-xs text-slate-600 dark:text-slate-300">Des 2023 - Jun 2024</p>
               </div>
             </div>
             <div>
-              <p className="text-xs text-slate-600 line-clamp-5 hover:line-clamp-none">
+              <p className="text-xs text-slate-600 line-clamp-5 hover:line-clamp-none dark:text-slate-300">
                 Edunesia is an educational platform that serves as a home for formal and non-formal institutions, catering to students, university students, and the entire Indonesian community, enabling them to utilize digital or
                 interactive online learning to enhance their knowladge, skills, and educational levels, thereby contributing towards building a smarter and more superior nation
               </p>

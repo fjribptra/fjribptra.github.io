@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import LightDarkToggle from "./LightDartToggle";
+import LightDarkToggle from "./LightDarkToggle";
 
 export default function NavBar() {
     const router = useRouter()

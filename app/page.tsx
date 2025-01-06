@@ -26,10 +26,12 @@ import SocialCard from "./components/SocialCard";
 import GitHubCalendar from "react-github-calendar";
 import { GoGitPullRequestDraft } from "react-icons/go";
 import Subheading from "./components/Subheading";
+import { IsDarkMode } from "./functions/isDarkMode";
+import GitHubContributionStats from "./components/GitHubContributionStats";
 
 export default function Home() {
   return (
-    <main className="dark:bg-slate-950 dark:text-white">
+    <main className="dark:bg-gray-950 dark:text-white">
       {/* <NavBar/> */}
       <div className="max-w-3xl mx-auto pt-16 flex flex-col gap-5 p-3">
         <div className="flex justify-start items-center gap-5">
@@ -81,7 +83,7 @@ export default function Home() {
           <Subheading title="Contributions" description="Github contribution and activities statistics">
           <GoGitPullRequestDraft />
           </Subheading>
-          <GitHubCalendar username="fjribptra" colorScheme="light" />
+          <GitHubContributionStats/>
         </div>
       </div>
       {/* Projects Paginaiton Start */}

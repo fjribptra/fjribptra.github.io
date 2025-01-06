@@ -10,6 +10,7 @@ import { IoHomeOutline } from "react-icons/io5";
 import { LuTreePine } from "react-icons/lu";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { Tooltip } from "react-tooltip";
+import LightDarkToggle from './LightDarkToggle';
 
 gsap.registerPlugin(useGSAP);
 
@@ -45,9 +46,10 @@ const BottomNavigation = () => {
         <Link className={`text-2xl border p-4 rounded-lg border-slate-300 ${isActive("/about") ? 'bg-blue-200' : ''}`} href="/about" data-tooltip-id="my-tooltip" data-tooltip-content="About">
           <LuTreePine />
         </Link>
-        <button className="text-2xl border p-4 rounded-lg border-slate-300" data-tooltip-id="my-tooltip" data-tooltip-content="Toggle Theme">
+        {/* <button className="text-2xl border p-4 rounded-lg border-slate-300" data-tooltip-id="my-tooltip" data-tooltip-content="Toggle Theme">
           <MdOutlineWbSunny />
-        </button>
+        </button> */}
+        <LightDarkToggle className={'text-2xl border p-4 rounded-lg border-slate-300'}/>
         <Tooltip id="my-tooltip" />
       </nav>
     </div>
