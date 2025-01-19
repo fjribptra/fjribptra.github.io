@@ -8,7 +8,7 @@ interface SubheadingProps {
 
 const Subheading = ({children, title, description}: SubheadingProps) => {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-1">
       <div className="flex gap-3 items-center">
         {children}
         <h2 className="text-xl font-semibold">{title}</h2>
