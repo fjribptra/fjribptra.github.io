@@ -47,7 +47,7 @@ const BottomNavigation = () => {
         <Link className={`text-lg border p-4 rounded-lg border-slate-300 hover:bg-green-200 ${isActive("/about") ? 'bg-green-200' : ''}`} href="/about" data-tooltip-id="my-tooltip" data-tooltip-content="About">
           <LuTreePine />
         </Link>
-        <Link className={`text-lg border p-4 rounded-lg border-slate-300 hover:bg-blue-200`} href="/file/cv.pdf" data-tooltip-id="my-tooltip" data-tooltip-content="Donwload Resume" target='_blank'>
+        <Link className={`text-lg border p-4 rounded-lg border-slate-300 hover:bg-blue-200`} href="/file/CV.pdf" data-tooltip-id="my-tooltip" data-tooltip-content="Donwload Resume" target='_blank'>
         <GoDownload />
         </Link>
         {/* <button className="text-2xl border p-4 rounded-lg border-slate-300" data-tooltip-id="my-tooltip" data-tooltip-content="Toggle Theme">
